@@ -1,0 +1,28 @@
+<?php
+
+namespace {{ namespace }};
+
+use {{ rootNamespace }}Http\Controllers\Controller;
+
+class {{ class }} extends Controller
+{
+    public function store(): never
+    {
+        abort(404);
+    }
+
+    public function show()
+    {
+        //
+    }
+
+    public function update()
+    {
+        //
+    }
+
+    public function destroy(): never
+    {
+        abort(404);
+    }
+}
